@@ -34,7 +34,7 @@ print(f"|{dat[0][0]:^10}|{dat[0][1]:^20}|")
 i = A
 while True:
     print(f"|{i:^10.2g}|{f(i,eps):^20.13g}|")
-    if A > B:
+    if A >= B:
         break
     A = A + r
     i = i + r
